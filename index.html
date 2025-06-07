@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Essenovo Bits</title>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable/dist/css/theme-simple.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/prismjs@1.30.0/themes/prism.min.css">
+    <style>
+        .markdown-section {
+            max-width: none;
+        }
+        :root {
+            --sidebar-width: 25rem;
+        }
+        .sidebar-nav li {
+            font-weight: 700;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div data-app id="app">Please wait ...</div>
+    <script>
+        var num = 0;
+        window.$docsify = {
+          name: 'Essenovo Bits',
+          paths: 'auto',
+          homepage: 'README.md',
+          loadSidebar: true,  // load from _sidebar.md
+          subMaxLevel: 3,     // add TOC
+          notFoundPage: '404.md',
+          search: {
+            paths: 'auto',
+            hideOtherSidebarContent: false,
+            depth: 6
+          },
+          requestHeaders: {
+            'cache-control': 'max-age=0',
+          }
+        };
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-themeable@0.9.0/dist/js/docsify-themeable.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs/prism.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-json.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-javascript.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-typescript.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-markdown.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-nginx.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-java.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-yaml.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-jsx.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-tsx.min.js"></script>
+</body>
+
+</html>
