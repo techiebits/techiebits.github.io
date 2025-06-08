@@ -1,6 +1,5 @@
-<!-- techiebits/_sidebar.md -->
-* [Home](./)
+<!-- techiebits.github.io/_sidebar.md -->
 
-* [Software Development Tools](sdt.md)
+- Software Development Tools
 
-* [References](references.md)
+  -  [VSCode](vscode.md)
